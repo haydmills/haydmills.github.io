@@ -31,7 +31,7 @@ nav ul li {
 .container .fixed-half {
   position: fixed;
   will-change: transform;
-  background-color: #666;
+  background-color: #6c73fd;
   background-image: url("../background.png");
   background-size: cover;
   left: 0;
