@@ -66,3 +66,44 @@ nav ul li {
 .container .scrolling-half .wrapper ul li {
   margin-bottom: 5px;
 }
+
+@media only screen and (max-width: 700px) {
+  .container .fixed-half {
+    position: relative;
+    height: 350px;
+    background-color: #6c73fd;
+    background-image: url("../background.png");
+    background-size: cover;
+    left: 0;
+    right: 100%;
+    top: 0;
+    bottom: 0;
+  }
+  .container .fixed-half .title {
+    display: flex;
+    align-items: center;
+    padding: 35px;
+  }
+  .container .fixed-half .title h1 {
+    font-size: 54px;
+    margin-top: 0;
+    text-transform: uppercase;
+    color: white;
+  }
+  .container .scrolling-half {
+    position: relative;
+    width: 100%;
+    margin-left: 0%;
+    color: #333;
+    font-size: 18px;
+    line-height: 1.55;
+    margin-top: 40px;
+  }
+  .container .scrolling-half .wrapper {
+    width: 100%;
+    padding: 20px 50px;
+  }
+  .container .scrolling-half .wrapper ul li {
+    margin-bottom: 5px;
+  }
+}
