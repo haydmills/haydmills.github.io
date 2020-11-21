@@ -1,0 +1,286 @@
+html,
+
+.sectionPurple {
+  left: auto;
+  min-height: auto;
+  margin-top: -80px;
+  background-color: #331a5c;
+  background-image: url(./assets/gradient-violet-bg.jpg);
+  height: 1050px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  position: relative;
+  width: 100%;
+}
+.navbar {
+  overflow: hidden;
+  background-color: transparent;
+  position: fixed;
+  top: 10pt;
+  width: 100%;
+}
+
+.navbar > div {
+  float: right;
+  display: block;
+  width: 109px;
+  margin: 5px 5px;
+  text-align: center;
+  font-size: 30px;
+  padding: 2pt 2pt;
+}
+
+.navButton {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: "Segoe UI", "Roboto", "Open Sans", "Helvetica Neue", "sans-serif";
+}
+
+.transparentButton {
+  background-color: transparent;
+  border: solid white 1px;
+  border-radius: 2px;
+  color: white;
+  padding: 5px 5px;
+  font-size: 14px;
+  cursor: pointer;
+  font-family: "Segoe UI", "Roboto", "Open Sans", "Helvetica Neue", "sans-serif";
+  letter-spacing: 1.5pt;
+}
+
+.foxKast {
+  overflow: hidden;
+  display: flex;
+  background-color: transparent;
+  justify-content: flex-end;
+  margin: 15pt 10pt;
+  position: fixed;
+  top: 0pt;
+}
+
+.foxKastImg {
+  width: 14%;
+  float: left;
+}
+
+.boatLaptop {
+  display: flex;
+  background-color: transparent;
+  justify-content: center;
+  margin-top: 250px;
+}
+
+.boatLaptopImg {
+  width: 600px;
+  height: auto;
+}
+
+.watchPartiesMadeEasy {
+  display: flex wrap;
+  flex-direction: column;
+  justify-content: center;
+  background-color: transparent;
+  margin-top: 20px;
+}
+
+.watchPartiesMadeEasyTitle {
+  width: 600px;
+  margin: auto;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: white;
+  font-size: 36pt;
+}
+
+.wordBreak {
+  width: 550px;
+  margin: auto;
+  text-align: center;
+  font-size: 15pt;
+  font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+  color: white;
+  padding: 25px;
+}
+
+.joinMillions {
+  margin: auto;
+  margin-top: 15pt;
+  text-align: center;
+  font-size: 15pt;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: white;
+}
+
+.button {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  margin-top: 20pt;
+  background-color: #ffa319;
+  justify-content: center;
+  border: none;
+  color: white;
+  padding: 12px 60px;
+  font-size: 18px;
+  border-radius: 2pt;
+  cursor: pointer;
+  font-family: "Segoe UI", "Roboto", "Open Sans", "Helvetica Neue", "sans-serif";
+  margin-bottom: 120px;
+}
+
+.whiteSection {
+  padding: 100px 30px;
+  background-color: #fff;
+  background-size: cover;
+  margin: 0;
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 36px;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  justify-content: center;
+  text-align: center;
+}
+
+.featuredLogos {
+  max-width: 728px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.featuredLogosGrid {
+  grid-row-gap: 40px;
+  grid-column-gap: 60px;
+  max-width: 640px;
+  margin-right: auto;
+  margin-bottom: 75px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  display: grid;
+}
+
+.quote {
+  max-width: 734px;
+  margin-right: auto;
+  margin-bottom: 10px;
+  margin-left: auto;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-top: 0pt;
+  color: #434146;
+  font-size: 18px;
+}
+
+.italicYahooFinance {
+  max-width: 734px;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 16px;
+  text-align: right;
+  color: #414854;
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding: 20px;
+}
+
+.blueSection {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-image: url(./assets/green-bg.jpg);
+  color: #fff;
+  display: block;
+  padding-top: 110px;
+  padding-bottom: 110px;
+}
+
+.whatIsKastText {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.whatIsKastText > div {
+  flex: none;
+}
+
+.titleWhatIsKast {
+  margin-bottom: 60px;
+  color: #fff;
+  font-size: 48px;
+  line-height: 48px;
+  font-weight: 500;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.firstSentence {
+  text-align: center;
+  padding-left: 0px;
+  max-width: 640px;
+  margin-right: auto;
+  margin-left: auto;
+  color: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 20px;
+}
+
+.secondSentence {
+  text-align: center;
+  padding-left: 0px;
+  max-width: 640px;
+  margin-right: auto;
+  margin-left: auto;
+  color: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.thirdSentence {
+  text-align: center;
+  max-width: 640px;
+  margin-right: auto;
+  margin-left: auto;
+  color: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 20px;
+  padding: 40px;
+  line-height: 25pt;
+}
+
+.secondButton {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  margin-top: 20pt;
+  background-color: #ffa319;
+  justify-content: center;
+  border: none;
+  color: white;
+  padding: 12px 60px;
+  font-size: 18px;
+  border-radius: 2pt;
+  cursor: pointer;
+  font-family: "Segoe UI", "Roboto", "Open Sans", "Helvetica Neue", "sans-serif";
+}
+
+body {
+  margin: 0;
+}
