@@ -29,12 +29,6 @@ function displayResults(json){
   let spaceXWiki = json.links.wikipedia
   console.log(spaceXWiki)
 
-  // sizing image
-  let displayImage = new Image(400, 500)
-
-displayImage.src = spaceXRocketImage;
-document.body.appendChild(displayImage).className += "spacexImageStyle";
-
 document.getElementById("name").innerText = spaceXRocketName
 
 document.getElementById("date").innerText = spaceXDate
